@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ricoramars.bierapp.MainActivity">
+    <item
+        android:id="@+id/navigate_to_beer_game"
+        android:title="Go to the beer game"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/delete_all_beers"
+        android:title="Delete all beers"
+        app:showAsAction="never"
+        />
+</menu>

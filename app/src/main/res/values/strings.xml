@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BierApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_test2">TEST2</string>
+</resources>
