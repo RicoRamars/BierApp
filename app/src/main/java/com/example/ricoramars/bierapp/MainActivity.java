@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onChanged(@Nullable List<Beer> beers) {
                 //update the RecyclerView
-                adapter.setBeers(beers);
+                adapter.submitList(beers);
             }
         });
 
