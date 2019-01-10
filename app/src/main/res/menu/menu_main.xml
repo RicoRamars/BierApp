@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.ricoramars.bierapp.MainActivity">
+    tools:context="com.example.ricoramars.bierapp.Activities.MainActivity">
     <item
         android:id="@+id/navigate_to_beer_game"
         android:title="Go to the beer game"

@@ -1,4 +1,6 @@
-package com.example.ricoramars.bierapp;
+package com.example.ricoramars.bierapp.Api;
+
+import com.example.ricoramars.bierapp.Entities.NumberFactItem;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

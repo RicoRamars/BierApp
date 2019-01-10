@@ -1,4 +1,4 @@
-package com.example.ricoramars.bierapp;
+package com.example.ricoramars.bierapp.Adapter;
 
 import android.support.annotation.NonNull;
 import android.support.v7.recyclerview.extensions.ListAdapter;
@@ -9,8 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.example.ricoramars.bierapp.Entities.Beer;
+import com.example.ricoramars.bierapp.R;
 
 public class BeerAdapter extends ListAdapter <Beer, BeerAdapter.BeerHolder> {
     private OnItemClickListener listener;

@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".Activities.MainActivity"
             android:label="@string/app_name"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme.NoActionBar">
@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SplashScreen"
+            android:name=".Activities.SplashScreen"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,9 +32,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".AddEditBeerActivity"
-            android:parentActivityName=".MainActivity" />
-        <activity android:name=".BeerDiceGame"></activity>
+            android:name=".Activities.AddEditBeerActivity"
+            android:parentActivityName=".Activities.MainActivity" />
+        <activity android:name=".Activities.BeerDiceGame"></activity>
     </application>
 
 </manifest>

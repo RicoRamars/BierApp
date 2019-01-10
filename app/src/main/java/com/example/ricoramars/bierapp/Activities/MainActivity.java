@@ -1,4 +1,4 @@
-package com.example.ricoramars.bierapp;
+package com.example.ricoramars.bierapp.Activities;
 
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
@@ -17,6 +17,11 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
+
+import com.example.ricoramars.bierapp.Entities.Beer;
+import com.example.ricoramars.bierapp.Adapter.BeerAdapter;
+import com.example.ricoramars.bierapp.Viewmodel.BeerViewModel;
+import com.example.ricoramars.bierapp.R;
 
 import java.util.List;
 

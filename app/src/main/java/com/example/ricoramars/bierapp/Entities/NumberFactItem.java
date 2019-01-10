@@ -1,4 +1,4 @@
-package com.example.ricoramars.bierapp;
+package com.example.ricoramars.bierapp.Entities;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

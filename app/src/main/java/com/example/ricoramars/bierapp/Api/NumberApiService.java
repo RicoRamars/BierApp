@@ -1,4 +1,4 @@
-package com.example.ricoramars.bierapp;
+package com.example.ricoramars.bierapp.Api;
 
 import retrofit2.Call;
 import retrofit2.Retrofit;
@@ -8,7 +8,7 @@ import retrofit2.http.GET;
 public class NumberApiService {
 
 
-    static Retrofit getClient(){
+    public static Retrofit getClient(){
         String BASE_URL = "http://numbersapi.com/";
 
         Retrofit retrofit = new Retrofit.Builder()

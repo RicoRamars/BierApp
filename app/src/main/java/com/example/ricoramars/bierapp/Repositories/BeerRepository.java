@@ -1,8 +1,12 @@
-package com.example.ricoramars.bierapp;
+package com.example.ricoramars.bierapp.Repositories;
 
 import android.app.Application;
 import android.arch.lifecycle.LiveData;
 import android.os.AsyncTask;
+
+import com.example.ricoramars.bierapp.Dao.BeerDao;
+import com.example.ricoramars.bierapp.Database.BeerDatabase;
+import com.example.ricoramars.bierapp.Entities.Beer;
 
 import java.util.List;
 

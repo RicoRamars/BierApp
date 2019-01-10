@@ -1,4 +1,4 @@
-package com.example.ricoramars.bierapp;
+package com.example.ricoramars.bierapp.Database;
 
 import android.arch.persistence.db.SupportSQLiteDatabase;
 import android.arch.persistence.room.Database;
@@ -7,6 +7,9 @@ import android.arch.persistence.room.RoomDatabase;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.support.annotation.NonNull;
+
+import com.example.ricoramars.bierapp.Entities.Beer;
+import com.example.ricoramars.bierapp.Dao.BeerDao;
 
 
 @Database(entities = Beer.class, version =  1)

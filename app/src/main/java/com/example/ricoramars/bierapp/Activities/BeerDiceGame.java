@@ -1,4 +1,4 @@
-package com.example.ricoramars.bierapp;
+package com.example.ricoramars.bierapp.Activities;
 
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +8,11 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.ricoramars.bierapp.Api.NumberApiService;
+import com.example.ricoramars.bierapp.Api.NumberInterface;
+import com.example.ricoramars.bierapp.Entities.NumberFactItem;
+import com.example.ricoramars.bierapp.R;
 
 import java.util.Random;
 
@@ -19,7 +24,7 @@ public class BeerDiceGame extends AppCompatActivity {
     //Local variables
     private ImageView   imageViewDice;
     private TextView    factView;
-    private int         theThrow, number, numberNew;
+    private int         number, numberNew;
     private Random      random;
 
     FloatingActionButton fab;
@@ -101,7 +106,6 @@ public class BeerDiceGame extends AppCompatActivity {
         }
         requestData();
     }
-    //Nog geen idee wat ik hier mee moet
     public void setFactTextView(String quoteMessage) {
 
         factView.setText(quoteMessage);

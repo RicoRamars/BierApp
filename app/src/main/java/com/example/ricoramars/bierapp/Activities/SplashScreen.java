@@ -1,9 +1,11 @@
-package com.example.ricoramars.bierapp;
+package com.example.ricoramars.bierapp.Activities;
 
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.ricoramars.bierapp.R;
 
 public class SplashScreen extends AppCompatActivity {
 
